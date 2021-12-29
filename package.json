@@ -1,0 +1,51 @@
+{
+  "name": "bee-design-vue2x",
+  "version": "1.0.0",
+  "description": "Vue2x UI library",
+  "main": "index.js",
+  "repository": "https://github.com/chengbotao/bee-design-vue2x.git",
+  "author": "chengbotao <chengbotao5221@163.com>",
+  "license": "MIT",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && rollup -c rollup.config.js",
+    "clean": "rimraf dist",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-proposal-class-properties": "^7.16.5",
+    "@babel/plugin-proposal-decorators": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "classnames": "^2.3.1",
+    "eslint": "^8.5.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.62.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-vue": "5.1.9",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.5"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "^7.16.5",
+    "@babel/runtime-corejs2": "^7.16.5",
+    "vue": "^2.6.14"
+  }
+}
